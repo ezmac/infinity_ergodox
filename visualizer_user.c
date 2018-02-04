@@ -28,7 +28,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include "visualizer.h"
 
-static const char* welcome_text[] = {"TMK", "Infinity Ergodox"};
+static const char* welcome_text[] = {"Welcome back", "Hack some shit"};
 
 // Just an example how to write custom keyframe functions, we could have moved
 // all this into the init function

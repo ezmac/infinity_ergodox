@@ -29,6 +29,20 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "print.h"
 #include "debug.h"
 #include "keymap.h"
+#include <stdint.h>
+#include <stdbool.h>
+//#include "keycode.h"
+#include "action.h"
+#include "action_macro.h"
+#include "report.h"
+#include "host.h"
+#include "debug.h"
+#include "keymap.h"
+#define ONESHOTMOD_REFERENCE_LAYER 2
+#define SHIFT_KEY_REFERENCE_LAYER 2
+#define ONESHOT_TIMEOUT 0
+
+
 
 
 extern const uint8_t keymaps[][MATRIX_ROWS][MATRIX_COLS];
